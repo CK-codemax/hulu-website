@@ -5,7 +5,7 @@ import { ArrowDownIcon } from '@heroicons/react/24/outline'
 
 export default function Header() {
   return (
-    <header className="w-full pb-14">
+    <header className="w-full header pb-14">
 
         {/*Top*/}
         <div className="flex items-center justify-between w-full sm:pr-16 sm:pl-4 mt-2">
@@ -44,12 +44,13 @@ export default function Header() {
                 All with ads, for $14.99/month.
                </p>
                <Link className="text-gray-800 bg-[#1ce783] hover:bg-opacity-75 w-[340px] text-center px-[24px] hover:bg-[#00ed82] transition-colors duration-500 ease-in-out text-sm py-2 rounded-md font-bold uppercase tracking-widest " href={'/'}>get all three</Link>
+            
             </div>
         </div>
        
        {/*Bottom*/}
        <div className="flex flex-col w-full items-center mt-6 space-y-10">
-        <Link href={'/'} className="text-gray-300 underline text-xs">Terms apply</Link>
+        <Link href={'/'} className="text-gray-400 underline text-xs">Terms apply</Link>
 
         <Link href={'/'} className="text-gray-100 underline text-sm tracking-widest uppercase">signup for hulu only</Link>
 

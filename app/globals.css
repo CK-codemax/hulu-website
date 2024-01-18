@@ -3,8 +3,14 @@
 @tailwind utilities;
 
 @layer components{
-  body{
+/*  body{
     @apply bg-[#272c34] 
+  }*/
+  .selector{
+    @apply rounded-full h-full flex items-center justify-center px-4 cursor-pointer text-center
+  }
+  .header{
+    background-image: linear-gradient(135deg, rgb(35, 20, 55), rgb(44, 56, 94) 50%, rgb(51, 110, 107));
   }
 }
 /*:root {
@@ -30,4 +36,19 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(39, 44, 52);
+    box-sizing: inherit;
+    font-family: Graphik, Helvetica, Arial, sans-serif;
+    background-color: rgb(11, 12, 15);
+    width: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top
+
+    //cnbl-cdn.bamgrid.com/assets/7a93b953315e186a518a4aa6dcd3792ecb007b8a5c5b1d540828e8bdfb2614f3/original
 */
