@@ -1,5 +1,7 @@
 import { ArrowLongRightIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import Feeds from "./Feeds";
+import ImageSelector from "./ImageSelector";
 
 export default function Middle() {
   return (
@@ -18,6 +20,8 @@ export default function Middle() {
          <p className="text-white text-wrap w-[800px] text-center mx-auto">Watch full seasons of exclusive streaming series, current-season episodes, hit movies, Hulu Originals, kids shows, and more.</p>
 
     </div>
+
+    <Feeds />
 
     <div className="bg-black pb-10 pt-28">
          <p className="text-[#1ce783] mb-4 text-center text-xs font-semibold uppercase tracking-widest">HULU + LIVE TV, NOW WITH DISNEY+ AND ESPN+, ALL WITH ADS</p>
@@ -39,6 +43,8 @@ export default function Middle() {
             
 
     </div>
+
+    <ImageSelector />
   </>
    
   )

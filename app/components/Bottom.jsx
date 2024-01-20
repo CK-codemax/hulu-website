@@ -1,3 +1,4 @@
+
 import Selector from "./Selector";
 
 export default function Bottom() {
@@ -10,6 +11,7 @@ export default function Bottom() {
         <p className="text-white text-wrap w-[800px] text-center mx-auto"> No hidden fees, equipment rentals, or installation appointments.</p>
 
         <p className="text-white text-wrap w-[800px] text-center mx-auto font-bold"> Switch plans or cancel anytime.**</p>
+          
 
         <Selector />
 

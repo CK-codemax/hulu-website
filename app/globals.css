@@ -12,8 +12,41 @@
   .header{
     background-image: linear-gradient(135deg, rgb(35, 20, 55), rgb(44, 56, 94) 50%, rgb(51, 110, 107));
   }
+  .image-selector{
+    width : 100%;
+    min-height: 100vh;
+    background-color: #0b0c0f;
+    background-size:cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url("//cnbl-cdn.bamgrid.com/assets/b90378ca30a4e9211208e665bdd0f585405cdee3c98776c0c574f7243edb77a5/original");
+
+  }
 }
-/*:root {
+
+/*background-color: #0b0c0f;
+width: 100%;
+z-index: -1;
+background-size: cover;
+background-position: top;
+background-repeat: no-repeat;
+background-image: linear-gradient(rgba(0, 0, 0, 0.8) -39.59%, rgba(0, 0, 0, 0) 117.14%), url("//cnbl-cdn.bamgrid.com/assets/b90378ca30a4e9211208e665bdd0f585405cdee3c98776c0c574f7243edb77a5/original");
+
+
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    color: #272c34;
+    box-sizing: inherit;
+    font-family: Graphik,Helvetica,Arial,sans-serif;
+    background-color: #0b0c0f;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8) -57.5%, rgba(0, 0, 0, 0) 98.72%), url("//cnbl-cdn.bamgrid.com/assets/1cfd5743e36004288a408e977a0a9e44b57668b2bfdc525956772ce9d8769288/original");
+
+:root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
