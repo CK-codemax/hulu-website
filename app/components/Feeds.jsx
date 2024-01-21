@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Feed from "./Feed";
 
 export default function Feeds() {
   return (
@@ -38,5 +37,3 @@ export default function Feeds() {
 
 
 
-//cnbl-cdn.bamgrid.com/assets/7a93b953315e186a518a4aa6dcd3792ecb007b8a5c5b1d540828e8bdfb2614f3/original
-//cnbl-cdn.bamgrid.com/assets/ec577557f24e2e08f9c0977d1ce40e24fe39392d5960787418887b6d539b8d6a/original
