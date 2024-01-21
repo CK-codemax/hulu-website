@@ -24,9 +24,39 @@ export default function ImageSelector() {
             <p onClick={() => setOpened('biggest-events')} className={` uppercase cursor-pointer font-bold text-sm ${opened === 'biggest-events' ? 'text-white underline underline-offset-[16px] decoration-4' : 'hover:text-gray-600 text-gray-500'}`}>Biggest Events</p>
         
         </div>
-         <div style={style} className={`absolute bg-cover w-full min-h-screen h-[702px] bg-no-repeat`}>
-        ochuko
-    </div>
+         <div style={style} className={`absolute bg-cover w-full min-h-screen h-[702px] bg-no-repeat`}/>
+         {opened === 'live-sports' && (<div className="absolute left-24 top-[280px]">
+          <p className="text-white mb-4 font-bold text-[40px] text-left">Live Sports</p>
+          <p className="text-white text-wrap w-[550px] text-left mx-auto mb-4">Catch your games at home or on the go. Stream live games from major college and pro leagues including the NCAA®, NBA, NHL, NFL, and more. Includes top local and national sports networks like ABC, CBS Sports Network, ESPN, FOX, FS1, TNT, NFL Network and more.</p>
+          
+
+          
+         <p className="text-gray-400 mx-auto mb-5 text-wrap text-left w-[550px] block text-xs">
+         Live TV plan required. Regional restrictions, blackouts and additional terms apply. <span className="underline cursor-pointer">See details</span>
+         </p>
+         </div>)}
+
+         {opened === 'breaking-news' && (<div className="absolute left-24 top-[280px]">
+          <p className="text-white mb-4 font-bold text-[40px] text-left">Breaking News</p>
+          <p className="text-white text-wrap w-[550px] text-left mx-auto mb-4">Keep pace with what's going on locally and globally with trusted opinions from all the top news networks.</p>
+          
+
+          
+         <p className="text-gray-400 mx-auto mb-5 text-wrap text-left w-[550px] block text-xs">
+         Live TV plan required. Regional restrictions, blackouts and additional terms apply. <span className="underline cursor-pointer">See details</span>
+         </p>
+         </div>)}
+
+         {opened === 'biggest-events' && (<div className="absolute left-24 top-[280px]">
+          <p className="text-white mb-4 font-bold text-[40px] text-left">Biggest Events</p>
+          <p className="text-white text-wrap w-[550px] text-left mx-auto mb-4">Spectacular, can't-miss moments like the Olympics, Grammys®, Oscars®, Emmys®, and more.</p>
+          
+
+          
+         <p className="text-gray-400 mx-auto mb-5 text-wrap text-left w-[550px] block text-xs">
+         Live TV plan required. Regional restrictions, blackouts and additional terms apply. <span className="underline cursor-pointer">See details</span>
+         </p>
+         </div>)}
   </div>
    
   )

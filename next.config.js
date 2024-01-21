@@ -9,6 +9,11 @@ const nextConfig = {
           },
         ],
       },
+
+      plugins: [
+        require('tailwind-scrollbar-hide')
+        // ...
+      ]
 }
 
 module.exports = nextConfig
