@@ -109,7 +109,7 @@ src="/espn-logo.png" width={200} height={100} />
 
     <div className="grid grid-cols-4 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
           <p className="text-left text-wrap">Live sports with ESPN+, now in the Hulu appLive sports with ESPN+, now in the Hulu app</p>
-          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
+          <MinusIcon className="h-6 mx-auto text-gray-400" />
           <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
           <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
     </div> 
@@ -121,14 +121,66 @@ src="/espn-logo.png" width={200} height={100} />
           <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
     </div> 
 
+     <div className="grid grid-cols-4 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
+          <p className="text-left text-wrap">Access to award-winning Hulu Originals</p>
+          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
+          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
+          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
+    </div> 
+
+
+     <div className="grid grid-cols-4 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
+          <p className="text-left text-wrap">Watch on your favorite devices, including TV, laptop, phone, or tablet</p>
+          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
+          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
+          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
+    </div> 
+
+
+     <div className="grid grid-cols-4 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
+          <p className="text-left text-wrap">No ads in Hulu streaming library</p>
+          <MinusIcon className="h-6 mx-auto text-gray-400" />
+          <MinusIcon className="h-6 mx-auto text-gray-400" />
+          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
+    </div> 
+
+
+     <div className="grid grid-cols-4 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
+          <p className="text-left text-wrap">No ads on Disney+</p>
+          <MinusIcon className="h-6 mx-auto text-gray-400" />
+          <MinusIcon className="h-6 mx-auto text-gray-400" />
+          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
+    </div> 
+
+
+     <div className="grid grid-cols-4 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
+          <p className="text-left text-wrap">Download and watch on Hulu</p>
+          <MinusIcon className="h-6 mx-auto text-gray-400" />
+          <MinusIcon className="h-6 mx-auto text-gray-400" />
+          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
+    </div> 
+
+    <div className="grid grid-cols-4 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
+          <p className="text-left text-wrap">Download and watch on Disney+</p>
+          <MinusIcon className="h-6 mx-auto text-gray-400" />
+          <MinusIcon className="h-6 mx-auto text-gray-400" />
+          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
+    </div> 
+
+
+
+
+
 
 
     
 <div className="grid grid-cols-3 grid-rows-1 text-[14px] text-left w-full pt-2 pb-8 items-center border-b border-gray-500">
 <p className="text-white mx-auto mb-5 text-wrap text-left w-[550px] block text-[10px]">
- †For current-season shows in the streaming library only
- <br />
- **Switches from Live TV to Hulu take effect as of the next billing cycle
+*Savings compared to regular monthly price of each service. <span className="cursor-pointer underline">Terms apply</span>.<br />
+**Switches from Live TV to Hulu take effect as of the next billing cycle<br />
+†For current-season shows in the streaming library only
+
+
  </p>
 </div> 
 {showAddOns === true && (<>
@@ -140,26 +192,30 @@ src="/espn-logo.png" width={200} height={100} />
 Add them up after you sign up for Hulu.
     </p>
 
-    <div className="grid grid-cols-3 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
+    <div className="grid grid-cols-4 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
           <p className="text-left text-wrap">Max</p>
           <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
           <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
+          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
 </div> 
 
-<div className="grid grid-cols-3 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
+<div className="grid grid-cols-4 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
           <p className="text-left text-wrap">CINEMAX®</p>
           <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
           <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
+          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
 </div> 
 
-<div className="grid grid-cols-3 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
+<div className="grid grid-cols-4 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
           <p className="text-left text-wrap">Paramount+ with SHOWTIME</p>
           <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
           <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
+          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
 </div> 
 
-<div className="grid grid-cols-3 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
+<div className="grid grid-cols-4 grid-rows-1 text-[14px] font-semibold text-left w-full py-5 items-center border-b border-gray-500">
           <p className="text-left text-wrap">STARZ®</p>
+          <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
           <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
           <CheckIcon className="h-6 mx-auto text-[#1ce783]" />
 </div> 
