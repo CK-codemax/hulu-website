@@ -8,7 +8,7 @@ export default function Header() {
     <header className="w-full header pb-14">
 
         {/*Top*/}
-        <div className="flex items-center justify-between w-full sm:pr-16 sm:pl-4 mt-2">
+        <div className="flex items-center justify-between w-full sm:pr-16 sm:pl-4">
         <Logo/>
         <Link className="uppercase px-4 transition-colors duration-500 ease-in-out py-2 hover:text-gray-50 hover:bg-gray-500 rounded-md text-gray-400 text-sm font-bold tracking-widest" href={'/'}>Log in</Link>
         </div>

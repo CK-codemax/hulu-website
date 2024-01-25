@@ -1,5 +1,5 @@
 import FooterCols from "./FooterCols"
-import LineBreak from "./LineBreak"
+import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa6";
 
 
 const browse = ['Streaming Library',
@@ -40,6 +40,18 @@ const about = [
     'Guides | What to Watch',
 ]
 
+const footerTexts = [
+'© 2024 Hulu, LLC',
+'About Ads',
+'Subscriber Agreement',
+'Privacy Policy',
+'Do Not Sell or Share My Personal Information',
+'Your US State Privacy Rights',
+'TV Parental Guidelines',
+'Sitemap',
+]
+
+
 export default function Footer() {
   return (
     <div className="bg-gray-100 pb-16 pt-16 w-full">
@@ -70,6 +82,19 @@ export default function Footer() {
             <p className="uppercase font-bold text-gray-800 text-[14px]">about</p>
             <FooterCols list={about}/>
            </div>
+       </div>
+
+       <div className="w-[75%] mx-auto mt-16">
+        <div className="flex items-center space-x-10">
+          <FaFacebookF className="text-[20px] text-gray-600 cursor-pointer" />
+          <FaTwitter className="text-[20px] text-gray-600 cursor-pointer"/>
+          <FaYoutube className="text-[20px] text-gray-600 cursor-pointer"/>
+          <FaInstagram className="text-[20px] text-gray-600 cursor-pointer"/>
+        </div>
+
+        <div className="flex flex-wrap mt-12 justify-start items-start ">
+        {footerTexts.map((text) => <p key={text} className="whitespace-nowrap px-3 py-2 text-nowrap cursor-pointer text-left text-gray-600 text-xs">{text}</p> )}
+        </div>
        </div>
     </div>
   )
