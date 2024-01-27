@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Feeds() {
   return (
-    <div className="w-full px-2 grid grid-rows-1 grid-cols-4 gap-4 bg-black">
+    <div className="w-full px-4 xl:px-2 grid grid-rows-2 grid-cols-2 xl:grid-rows-1 xl:grid-cols-4 gap-2 xl:gap-4 bg-black">
         <div className="rounded-lg hover:border-4 border-gray-500 cursor-pointer relative p-1">
             <div className="absolute top-7 left-5 z-10">
                 <p className="text-white mb-3 font-bold text-xs">New & Classic</p>

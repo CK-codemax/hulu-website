@@ -5,8 +5,27 @@ import { ArrowDownIcon, Bars3Icon } from '@heroicons/react/24/outline'
 
 
 export default function Header() {
+
+  // let bgImage;
+
+  // if(window.matchMedia("(max-width : 637px)").matches){
+  //   bgImage = 'https://cnbl-cdn.bamgrid.com/assets/4e3cb21e012549ce1d54e194184cec4f4915d1ff87e0963e96651cdeff1f3e6f/original'
+  // }
+
+  // // if((window.matchMedia("(max-width: 637px)")).matches){
+  // //   bgImage = 'https://cnbl-cdn.bamgrid.com/assets/4e3cb21e012549ce1d54e194184cec4f4915d1ff87e0963e96651cdeff1f3e6f/original'
+  // // }else  if((window.matchMedia("(min-width: 638px)")).matches){
+  // //    bgImage = 'https://cnbl-cdn.bamgrid.com/assets/526124a79cff66402dd054d3391099b4546892083c29d25a2d17c8193cc439bf/original'
+  // // }else if((window.matchMedia("(min-width: 1278px)")).matches){
+  // //   bgImage = 'https://cnbl-cdn.bamgrid.com/assets/62ed936344e6ffbac48c896b2bd327fe171521dd941b6ddc8402e2eae50116fc/original'
+  // // }
+
+  // const style = {
+  //   backgroundImage : `linear-gradient(rgba(0, 0, 0, 0.8) -39.59%, rgba(0, 0, 0, 0) 117.14%), url(${bgImage})`,
+  // }
+
   return (
-    <header className="w-full header pb-14">
+    <header className="w-full header h-full bg-cover bg-no-repeat pb-14">
 
         {/*Top*/}
         <div className="flex items-center pr-6 justify-between w-full sm:pr-16 sm:pl-4">
