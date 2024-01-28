@@ -14,6 +14,18 @@
     .header{
       background-image: url('https://cnbl-cdn.bamgrid.com/assets/62ed936344e6ffbac48c896b2bd327fe171521dd941b6ddc8402e2eae50116fc/original'), linear-gradient(135deg, rgb(35, 20, 55), rgb(44, 56, 94) 50%, rgb(51, 110, 107));
     }
+
+    .live-sports{
+      background-image : url('https://cnbl-cdn.bamgrid.com/assets/3ab6ce86baaf4225b072c58fa9497ec949c0c9e284b3958ecda1429b7f3744f9/original'), linear-gradient(rgba(0, 0, 0, 0.8) -39.59%, rgba(0, 0, 0, 0) 117.14%)
+    }
+
+    .breaking-news{
+      background-image : url('https://cnbl-cdn.bamgrid.com/assets/4a3aa8e2de730150aba6be81a274da9d447c513fbb0a788dad007b5fe1e0877a/original'), linear-gradient(rgba(0, 0, 0, 0.8) -39.59%, rgba(0, 0, 0, 0) 117.14%)
+    }
+
+    .biggest-events{
+      background-image : url('https://cnbl-cdn.bamgrid.com/assets/1cfd5743e36004288a408e977a0a9e44b57668b2bfdc525956772ce9d8769288/original'), linear-gradient(rgba(0, 0, 0, 0.8) -39.59%, rgba(0, 0, 0, 0) 117.14%)
+    }
   }
 
 
@@ -21,12 +33,36 @@
     .header{
       background-image: url('https://cnbl-cdn.bamgrid.com/assets/526124a79cff66402dd054d3391099b4546892083c29d25a2d17c8193cc439bf/original'), linear-gradient(135deg, rgb(35, 20, 55), rgb(44, 56, 94) 50%, rgb(51, 110, 107));
     }
+
+    .live-sports{
+      background-image : url('https://cnbl-cdn.bamgrid.com/assets/7a93b953315e186a518a4aa6dcd3792ecb007b8a5c5b1d540828e8bdfb2614f3/original'), linear-gradient(rgba(0, 0, 0, 0.8) -39.59%, rgba(0, 0, 0, 0) 117.14%)
+    }
+
+    .breaking-news{
+      background-image : url('https://cnbl-cdn.bamgrid.com/assets/ec577557f24e2e08f9c0977d1ce40e24fe39392d5960787418887b6d539b8d6a/original'), linear-gradient(rgba(0, 0, 0, 0.8) -39.59%, rgba(0, 0, 0, 0) 117.14%)
+    }
+
+    .biggest-events{
+      background-image : url('https://cnbl-cdn.bamgrid.com/assets/b90378ca30a4e9211208e665bdd0f585405cdee3c98776c0c574f7243edb77a5/original'), linear-gradient(rgba(0, 0, 0, 0.8) -39.59%, rgba(0, 0, 0, 0) 117.14%)
+    }
   }
 
 
   @media screen and (max-width: 637px){
     .header{
       background-image: url('https://cnbl-cdn.bamgrid.com/assets/4e3cb21e012549ce1d54e194184cec4f4915d1ff87e0963e96651cdeff1f3e6f/original'), linear-gradient(135deg, rgb(35, 20, 55), rgb(44, 56, 94) 50%, rgb(51, 110, 107));
+    }
+
+    .live-sports{
+      background-image : url('https://cnbl-cdn.bamgrid.com/assets/7a93b953315e186a518a4aa6dcd3792ecb007b8a5c5b1d540828e8bdfb2614f3/original'), linear-gradient(rgba(0, 0, 0, 0.8) -39.59%, rgba(0, 0, 0, 0) 117.14%)
+    }
+
+    .breaking-news{
+      background-image : url('https://cnbl-cdn.bamgrid.com/assets/ec577557f24e2e08f9c0977d1ce40e24fe39392d5960787418887b6d539b8d6a/original'), linear-gradient(rgba(0, 0, 0, 0.8) -39.59%, rgba(0, 0, 0, 0) 117.14%)
+    }
+
+    .biggest-events{
+      background-image : url('https://cnbl-cdn.bamgrid.com/assets/b90378ca30a4e9211208e665bdd0f585405cdee3c98776c0c574f7243edb77a5/original'), linear-gradient(rgba(0, 0, 0, 0.8) -39.59%, rgba(0, 0, 0, 0) 117.14%)
     }
   }
 
