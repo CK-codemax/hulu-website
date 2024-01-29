@@ -7,6 +7,12 @@ const nextConfig = {
             hostname: 'cnbl-cdn.bamgrid.com',
             port: '',
           },
+
+          {
+            protocol: 'https',
+            hostname: 'www.hulu.com',
+            port: '',
+          },
         ],
       },
 

@@ -23,10 +23,10 @@ export default function Selector() {
        <LineBreak />
 
        
-        {opened === 'hulu' && <HuluOpened />}
-        {opened === 'disney-bundle' && <DisneyBundle />}
+         {opened === 'hulu' && <HuluOpened />}
+     {/*{opened === 'disney-bundle' && <DisneyBundle />}*/}
 
-{opened === 'live-tv' && <LiveTV />}
+{opened === 'live-tv' && <LiveTV />} 
   </div>
    
   )

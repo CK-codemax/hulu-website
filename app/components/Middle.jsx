@@ -43,7 +43,7 @@ export default function Middle() {
 
     </div>
 
-     <ImageSelector />  
+      <ImageSelector />
   </>
    
   )

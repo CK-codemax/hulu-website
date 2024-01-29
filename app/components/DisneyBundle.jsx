@@ -14,7 +14,7 @@ export default function DisneyBundle() {
 
   return (<div>
 
-<div className="-translate-y-2 flex text-white items-end ml-[25%] -space-x-20">
+<div className="-translate-y-2 grid grid-rows-1 grid-cols-3 xl:flex text-white items-end xl:ml-[25%] xl:-space-x-20">
     <div className="flex flex-col justify-center items-center">
     <div className="flex scale-75 items-center translate-y-5 sm:px-[50px]">
 <Logo />
@@ -23,7 +23,7 @@ src="/disney-logo.png" width={200} height={100} />
 
 </div>
         <p className="font-bold mb-3">Disney Bundle Duo Basic</p>
-        <p className="cursor-pointer py-2 text-center font-bold hover:bg-gray-300 transition-colors duration-300 ease-in-out text-black bg-white w-[230px] rounded-md">$9.99 / MONTH</p>
+        <p className="cursor-pointer py-2 text-center font-bold hover:bg-gray-300 transition-colors duration-300 ease-in-out text-black bg-white w-[85%] xl:w-[230px] rounded-md">$9.99 / MONTH</p>
     </div>
 
     <div className="flex flex-col items-center justify-center">
@@ -37,7 +37,7 @@ src="/espn-logo.png" width={200} height={100} />
 
 </div>
         <p className="font-bold mb-3">Disney Bundle Trio Basic</p>
-        <p className="cursor-pointer py-2 text-center font-bold hover:bg-gray-300 transition-colors duration-300 ease-in-out text-black bg-white w-[230px] rounded-md">$14.99 / MONTH</p>
+        <p className="cursor-pointer py-2 text-center font-bold hover:bg-gray-300 transition-colors duration-300 ease-in-out text-black bg-white w-[85%] xl:w-[230px] rounded-md">$14.99 / MONTH</p>
     </div>
 
     <div className="flex flex-col items-center justify-center">
@@ -51,7 +51,7 @@ src="/espn-logo.png" width={200} height={100} />
 
 </div>
         <p className="font-bold mb-3">Disney Bundle Trio Premium</p>
-        <p className="cursor-pointer py-2 text-center font-bold hover:bg-gray-300 transition-colors duration-300 ease-in-out text-black bg-white w-[230px] rounded-md">$24.99 / MONTH</p>
+        <p className="cursor-pointer py-2 text-center font-bold hover:bg-gray-300 transition-colors duration-300 ease-in-out text-black bg-white w-[85%] xl:w-[230px] rounded-md">$24.99 / MONTH</p>
     </div>
 </div>
 

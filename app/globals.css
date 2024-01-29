@@ -3,10 +3,9 @@
 @tailwind utilities;
 
 @layer components{
-/*  body{
-    @apply bg-[#272c34] 
-  }*/
-  .selector{
+ 
+
+ .selector{
     @apply rounded-full h-full flex items-center justify-center px-4 cursor-pointer text-center
   }
 
@@ -51,6 +50,7 @@
   @media screen and (max-width: 637px){
     .header{
       background-image: url('https://cnbl-cdn.bamgrid.com/assets/4e3cb21e012549ce1d54e194184cec4f4915d1ff87e0963e96651cdeff1f3e6f/original'), linear-gradient(135deg, rgb(35, 20, 55), rgb(44, 56, 94) 50%, rgb(51, 110, 107));
+      max-width : 100vw;
     }
 
     .live-sports{
@@ -67,6 +67,5 @@
   }
 
 
-  
-  
+
 }
