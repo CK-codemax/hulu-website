@@ -35,7 +35,7 @@ function handleOpenMenu(){
         </div>
       )}
         {/* Middle*/}
-        <div className="flex w-full px-6 space-x-6 mt-20 justify-center">
+        <div className="flex w-full px-2 space-x-2 sm:px-6 sm:space-x-6 mt-20 justify-center">
         <div className=" flex w-[50%] sm:w-[40%] xl:w-[30%] flex-col justify-center items-center">
             <p className="uppercase tracking-widest w-full text-sm text-wrap text-[#00ed82] font-semibold mb-6 text-center">disney duo basic</p>
              <div className="flex mx-auto w-[83px] sm:w-[161px] xl:w-[191px] justify-center items-center mb-4 sm:mb-[22px]">
@@ -50,7 +50,7 @@ function handleOpenMenu(){
           <div className=" flex w-[50%] sm:w-[40%] xl:w-[30%] flex-col justify-center items-center">
             <p className="uppercase tracking-widest w-full text-sm text-wrap text-[#00ed82] font-semibold mb-6 text-center">disney trio basic</p>
             <div className="flex mx-auto sm:w-[242px] w-[125px] xl:w-[287px] justify-center items-center mb-3">
-            <Image src={'https://www.hulu.com/static/hitch/s3/attachments/ckdz36xqi7zz019ym0b2seyqk-dplus-logo-0-1-2-0.full.png'} alt="affiliated-logos" width={1140} height={256} className="object-contain"/>
+            <Image src={'https://www.hulu.com/static/hitch/static/logos/bundles-dark.svg'} alt="affiliated-logos" width={1140} height={256} className="object-contain"/>
                </div>
             <p className="text-gray-50 font-semibold w-[70%] text-wrap text-center text-lg xl:text-2xl mb-5">
                 All with ads, for $14.99/month.
