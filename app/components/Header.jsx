@@ -35,7 +35,7 @@ function handleOpenMenu(){
         </div>
       )}
         {/* Middle*/}
-        <div className="flex w-full px-2 space-x-2 sm:px-6 sm:space-x-6 mt-20 justify-center">
+        <div className="flex w-full overflow-hidden px-2 space-x-2 sm:px-6 sm:space-x-6 mt-20 justify-center">
         <div className=" flex w-[50%] sm:w-[40%] xl:w-[30%] flex-col justify-center items-center">
             <p className="uppercase tracking-widest w-full text-sm text-wrap text-[#00ed82] font-semibold mb-6 text-center">disney duo basic</p>
              <div className="flex mx-auto w-[83px] sm:w-[161px] xl:w-[191px] justify-center items-center mb-4 sm:mb-[22px]">

@@ -8,7 +8,7 @@ export default function ImageSelector() {
  
  
   return (<div className="relative w-full min-h-screen overflow-hidden h-[800px] bg-[#0b0c0f] pt-5 pb-20">
-        <div className="absolute z-10 top-[75px] left-[50%] -translate-x-[50%] xl:-translate-x-[0] mx-auto xl:top-[200px] xl:left-24 flex space-x-6">
+        <div className="absolute w-full z-10 top-[75px] justify-center xl:-translate-x-[0] space-x-3 mx-auto xl:top-[200px] xl:left-24 flex sm:space-x-6">
             <p onClick={() => setOpened('live-sports')} className={` uppercase cursor-pointer text-nowrap font-bold text-xs sm:text-sm  ${opened === 'live-sports' ? 'text-white underline underline-offset-[16px] decoration-4' : 'hover:text-gray-600 text-gray-500'}`}>Live Sports</p>
             
             <p onClick={() => setOpened('breaking-news')} className={` uppercase cursor-pointer text-nowrap font-bold text-xs sm:text-sm   ${opened === 'breaking-news' ? 'text-white underline underline-offset-[16px] decoration-4' : 'hover:text-gray-600 text-gray-500'}`}>Breaking News</p>
