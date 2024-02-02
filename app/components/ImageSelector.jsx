@@ -46,7 +46,7 @@ export default function ImageSelector() {
           duration : 0.5,
          }} className="absolute w-full top-[180px] xl:-translate-x-[0] xl:left-24 xl:top-[280px]">
           <p className="text-white mb-4 font-bold text-center text-[30px] sm:text-[35px] xl:text-[40px] xl:text-left">Breaking News</p>
-          <p className="text-white text-wrap text-center w-[90%] sm:w-[75%] xl:w-[550px] xl:text-left mx-auto xl:mx-0 mb-4">Keep pace with what's going on locally and globally with trusted opinions from all the top news networks.</p>
+          <p className="text-white text-wrap text-center w-[90%] sm:w-[75%] xl:w-[550px] xl:text-left mx-auto xl:mx-0 mb-4">Keep pace with {"what's"} going on locally and globally with trusted opinions from all the top news networks.</p>
           
 
           
@@ -65,7 +65,7 @@ export default function ImageSelector() {
           duration : 0.5,
          }} className="absolute w-full top-[180px] xl:-translate-x-[0] xl:left-24 xl:top-[280px]">
           <p className="text-white mb-4 font-bold text-center text-[30px] sm:text-[35px] xl:text-[40px] xl:text-left">Biggest Events</p>
-          <p className="text-white text-wrap text-center w-[90%] sm:w-[75%] xl:w-[550px] xl:mx-0 xl:text-left mx-auto mb-4">Spectacular, can't-miss moments like the Olympics, Grammys®, Oscars®, Emmys®, and more.</p>
+          <p className="text-white text-wrap text-center w-[90%] sm:w-[75%] xl:w-[550px] xl:mx-0 xl:text-left mx-auto mb-4">Spectacular, {"can't"}-miss moments like the Olympics, Grammys®, Oscars®, Emmys®, and more.</p>
           
 
           

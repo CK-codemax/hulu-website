@@ -1,4 +1,4 @@
-import { ArrowLongRightIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
+
 import Link from "next/link";
 import Feeds from "./Feeds";
 import ImageSelector from "./ImageSelector";
@@ -8,7 +8,7 @@ export default function Middle() {
   
   <>
    <div className="w-full pt-8 pb-6 bg-gradient-to-b from-[#1ce783] to-gray-900 ">
-        <p className="text-white tracking-widest text-l font-bold text-wrap uppercase mb-8 text-center">build the plan that's right for you</p>
+        <p className="text-white tracking-widest text-l font-bold text-wrap uppercase mb-8 text-center">build the plan {"that's"} right for you</p>
         <p className="text-white cursor-pointer hover:bg-gray-200 hover:text-gray-800 mx-auto text-center text-sm font-bold tracking-widest uppercase py-2 w-[200px] sm:w-[250px] xl:w-[300px] bg-transparent border-2 border-gray-200 rounded-md">start building</p>
     </div>
  
