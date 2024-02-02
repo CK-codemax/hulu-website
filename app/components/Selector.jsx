@@ -24,7 +24,7 @@ export default function Selector() {
 
        
          {opened === 'hulu' && <HuluOpened />}
-     {/*{opened === 'disney-bundle' && <DisneyBundle />}*/}
+     {opened === 'disney-bundle' && <DisneyBundle />}
 
 {opened === 'live-tv' && <LiveTV />} 
   </div>
