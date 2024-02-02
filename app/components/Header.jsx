@@ -13,14 +13,9 @@ function handleOpenMenu(){
   setOpenMenu(open => !open)
 }
 
-function handleCloseMenu(){
-  if(openMenu === false)return
-
-  setOpenMenu(false)
-}
  
   return (
-    <header onClick={handleCloseMenu} className="w-full border-box header h-full bg-cover bg-no-repeat pb-14">
+    <header className="w-full border-box header h-full bg-cover bg-no-repeat pb-14">
 
         {/*Top*/}
         <div className="flex relative items-center pr-6 justify-between sm:pr-16 sm:pl-4">
