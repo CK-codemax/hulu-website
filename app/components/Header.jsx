@@ -3,15 +3,37 @@ import Link from "next/link";
 import Logo from "./Logo";
 import Image from "next/image";
 import { ArrowDownIcon, Bars3Icon } from '@heroicons/react/24/outline'
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 
 export default function Header() {
 const [openMenu, setOpenMenu] = useState(false)
+const modalRef = useRef();
 
 function handleOpenMenu(){
   setOpenMenu(open => !open)
 }
+
+useEffect(
+  function(){
+   function handleClick(e){
+    if(!openMenu)return
+    if(modalRef.current && !modalRef.current.contains(e.target)){
+      console.log('click outside', e.target)
+      setOpenMenu(false)
+    }
+
+   }
+
+   document.addEventListener('click', handleClick)
+  // if(openMenu === true){
+  //   document.querySelector('#close-modal').addEventListener('click', handleClick, true)
+  // }
+
+   return () => document.removeEventListener('click', handleClick)
+  },
+  [openMenu]
+)
 
  
   return (
@@ -20,15 +42,20 @@ function handleOpenMenu(){
         {/*Top*/}
         <div className="flex relative items-center pr-6 justify-between sm:pr-16 sm:pl-4">
         <Logo/>
-        <div onClick={handleOpenMenu} className="px-2 lg:hidden z-10 py-1 cursor-pointer bg-gray-700 rounded-sm">
+        <div onClick={handleOpenMenu} className="px-2 lg:hidden py-1 cursor-pointer bg-gray-700 rounded-sm">
        <Bars3Icon className="h-5 text-white" />
        </div>
+        {/* Also works
+       <div onClick={() => setOpenMenu(true)} className="px-2 lg:hidden py-1 cursor-pointer bg-gray-700 rounded-sm">
+       <Bars3Icon className="h-5 text-white" />
+       </div> */}
+
         <Link className="uppercase hidden lg:inline-flex px-4 transition-colors duration-500 ease-in-out py-2 hover:text-gray-50 hover:bg-gray-500 rounded-md text-gray-400 text-sm font-bold tracking-widest" href={'/'}>Log in</Link>
         
         </div>
        
         {openMenu && (
-         <div className="bg-gray-700 w-[280px] lg:hidden absolute top-14 right-6 sm:right-16 rounded-md px-2 py-2">
+         <div ref={modalRef} className="bg-gray-700 w-[280px] lg:hidden absolute top-14 right-6 sm:right-16 rounded-md px-2 py-2">
          <p className="capitalize tracking-widest text-center font-semibold px-4 py-2  hover:text-white hover:bg-gray-500 rounded-md text-gray-300">get the hulu app</p>
          <p  className="uppercase tracking-widest text-center  font-semibold px-4 py-2  hover:text-white hover:bg-gray-500 rounded-md text-gray-300">log in</p>
          <p  className="uppercase font-semibold text-center  tracking-widest  text-gray-300 hover:text-white hover:bg-gray-500 rounded-md px-4 py-2">get all three</p>
